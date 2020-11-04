@@ -29,7 +29,7 @@ export const NavBarContainer = styled.div`
 `;
 
 export const NavLogo = styled(RouterLink)`
-  color: #FFF;
+  color: #fff;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -63,7 +63,7 @@ export const NavMenu = styled.div`
   text-align: center;
   margin-right: -22px;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -73,7 +73,7 @@ export const NavItem = styled.div`
 `;
 
 export const NavLinks = styled(ScrollLink)`
-  color: #FFF;
+  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -90,7 +90,7 @@ export const NavButton = styled.nav`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -104,12 +104,11 @@ export const NavButtonLink = styled(RouterLink)`
   border: none;
   text-decoration: none;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
   }
 `;
-
