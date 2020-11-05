@@ -70,7 +70,8 @@ export const SideButton = styled.div`
 `;
 
 export const SidebarRoute = styled(RouterLink)`
-  border-radius: 50px;
+  color: #010606;
+  border-radius: 25px;
   background: #01bf71;
   white-space: nowrap;
   padding: 16px 64px;

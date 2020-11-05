@@ -38,6 +38,7 @@ export const NavLogo = styled(RouterLink)`
   justify-self: flex-start;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
 `;
 
 export const MobileIcon = styled.div`
@@ -95,7 +96,7 @@ export const NavButton = styled.nav`
   }
 `;
 export const NavButtonLink = styled(RouterLink)`
-  border-radius: 50px;
+  border-radius: 25px;
   background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
